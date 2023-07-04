@@ -71,4 +71,4 @@ const AppThemeProvider = (prop) => {
     return <ThemeProvider theme={theme}>{prop.children}</ThemeProvider>;
 };
 
-export default ThemeProvider;
+export default AppThemeProvider;
