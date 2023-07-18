@@ -2,6 +2,7 @@ import React from 'react';
 import { Box } from '@mui/material';
 import { CssBaseline } from '@mui/material';
 import Header from './components/Header';
+import OptionTab from 'components/OptionsTab';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             >
                 <Box>
                     <Header />
+                    <OptionTab/>
                 </Box>
             </Box>
         </React.Fragment>
